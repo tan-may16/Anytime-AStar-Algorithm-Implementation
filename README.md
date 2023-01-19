@@ -8,19 +8,19 @@ The repository contains implementation of Anytime A* algorithm as an extension o
 ## Installation and Implementation
 **Step 1: Clone this repository.**
 ```shell
-git clone https://github.com/tan-may16/Anytime-AStar-algorithm-with-other-AStar-variations.git
+git clone https://github.com/tan-may16/Anytime-AStar-Algorithm-Implementation.git
 ```
 
 **Step2: Run the A_star.py file with appropriate required arguments to visualize and test results.**
 ```shell
-cd Anytime-AStar-algorithm-with-other-AStar-variations
+cd Anytime-AStar-Algorithm-Implementation
 python A_star.py --x_start 50 --y_start 50 --x_end 150 --y_end 150 --collision_thresh 51 --max_time 1 --weight 5
 ```
 
 ## Command Line Arguments
 x_start: X coordinate of starting position. (Current position of robot) 
-y_start: Y coordinate of starting position. (Current position of robot)  
-x_end: X coordinate of end position. (Goal/Target position)  
+y_start: Y coordinate of starting position. (Current position of robot) 
+x_end: X coordinate of end position. (Goal/Target position) 
 y_end: Y coordinate of end position. (Goal/Target position) 
 collision_thresh: Obstacle threshold in the map. (Any value equal to and above the threshold is considered as an obstacle)
 max_time: Maximum time given for the planner to plan the path (in secconds) 
