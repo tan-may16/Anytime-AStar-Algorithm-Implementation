@@ -29,4 +29,4 @@ def visualize_path(map, path_list):
     plt.show()
     return map
 def save_path(map):
-    plt.imsave('plan.png', map.T)
+    plt.imsave('Images/plan.png', map.T)
